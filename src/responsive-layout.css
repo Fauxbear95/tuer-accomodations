@@ -1,0 +1,168 @@
+/* Responsive layout safeguards */
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .intro-section,
+  .about-host-section,
+  .rooms-section,
+  .amenities-section,
+  .availability-section,
+  .pricing-section,
+  .rules-safety-section,
+  .reviews-section {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .gallery-section {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .little-extras-section,
+  .unit-gallery-section {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .intro-grid,
+  .about-host-container,
+  .rooms-panel,
+  .amenities-container,
+  .availability-heading,
+  .availability-calendar-panel,
+  .little-extras-layout,
+  .unit-gallery-block,
+  .unit-gallery-upper-lower-living-spaces,
+  .pricing-container,
+  .rules-safety-container,
+  .reviews-container {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-content,
+  .rooms-panel,
+  .rooms-description,
+  .amenities-top,
+  .amenities-bottom,
+  .availability-calendars,
+  .pricing-panel,
+  .rules-panel,
+  .reviews-grid,
+  .footer-content {
+    max-width: 100%;
+  }
+
+  .intro-content,
+  .room-card,
+  .amenities-bathroom-images,
+  .amenities-bathroom-stack,
+  .amenities-kitchen-images,
+  .availability-calendar-column,
+  .unit-gallery-photo,
+  .review-card,
+  .rule-copy,
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    min-width: 0;
+  }
+
+  .pricing-panel {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 50% 50% 0 0 / 25% 25% 0 0;
+  }
+
+  .availability-calendar-panel,
+  .rooms-panel,
+  .rules-panel {
+    width: 100%;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro-section,
+  .about-host-section,
+  .rooms-section,
+  .amenities-section,
+  .availability-section,
+  .pricing-section,
+  .rules-safety-section,
+  .reviews-section {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .little-extras-section,
+  .unit-gallery-section {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .intro-grid,
+  .about-host-container,
+  .rooms-panel,
+  .amenities-container,
+  .availability-heading,
+  .availability-calendar-panel,
+  .little-extras-layout,
+  .unit-gallery-block,
+  .unit-gallery-upper-lower-living-spaces,
+  .pricing-container,
+  .rules-safety-container,
+  .reviews-container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .pricing-panel {
+    width: 100%;
+    max-width: none;
+    border-radius: 50% 50% 0 0 / 25% 25% 0 0;
+  }
+
+  .availability-title {
+    font-size: clamp(2.8rem, 14vw, 4.3rem);
+  }
+
+  .pricing-title {
+    font-size: clamp(3rem, 15vw, 4.3rem);
+  }
+
+  .footer-contact-link {
+    max-width: 100%;
+  }
+
+  .footer-contact-link span {
+    overflow-wrap: anywhere;
+  }
+}
