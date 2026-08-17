@@ -1,0 +1,29 @@
+/* Pricing responsive fix */
+
+@media (max-width: 900px) {
+  .pricing-container {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .pricing-panel {
+    width: 100%;
+    max-width: 720px;
+    box-sizing: border-box;
+    border-radius: 50% 50% 0 0 / 25% 25% 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .pricing-container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .pricing-panel {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+    border-radius: 50% 50% 0 0 / 25% 25% 0 0;
+  }
+}
