@@ -1,8 +1,15 @@
 import { reviews } from '../data/reviewsData.js';
+import { siteImages } from '../data/siteData.js';
 
 export default function Reviews() {
   return (
-    <section className="reviews-section" id="reviews">
+    <section
+      className="reviews-section"
+      id="reviews"
+      style={{
+        '--reviews-background-image': `url(${siteImages.backgrounds.reviews})`,
+      }}
+    >
       <div className="container reviews-container">
         <h2 className="reviews-title">REVIEWS</h2>
 
