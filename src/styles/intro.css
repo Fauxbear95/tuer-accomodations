@@ -37,7 +37,7 @@
   max-width: 590px;
   color: var(--tuer-brown);
   font-family: "Questrial", Arial, sans-serif;
-  font-size: clamp(1.1rem, 1.15vw, 1.25rem);
+  font-size: clamp(1.2rem, 1.25vw, 1.35rem);
   line-height: 1.5;
 }
 
@@ -93,7 +93,7 @@
   }
 
   .intro-copy {
-    font-size: clamp(1.1rem, 1.6vw, 1.2rem);
+    font-size: clamp(1.15rem, 1.7vw, 1.3rem);
   }
 }
 
@@ -118,7 +118,7 @@
 
   .intro-copy {
     max-width: none;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 
   .intro-section {
@@ -156,7 +156,7 @@
   }
 
   .intro-copy {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     line-height: 1.65;
   }
 
