@@ -1,0 +1,17 @@
+/* Shared desktop layout */
+
+@media (min-width: 901px) {
+  main > section:not(.hero) {
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  main > section:not(.hero) > .container {
+    width: 900px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
