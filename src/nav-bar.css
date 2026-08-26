@@ -1,6 +1,8 @@
 /* Navigation bar */
 
 .site-header {
+  width: 100%;
+  box-sizing: border-box;
   border-top: 1px solid #6b4a3f;
   border-bottom: 0;
   background: #f4f1ed;
@@ -9,10 +11,11 @@
 
 .header-inner {
   width: 100%;
-  max-width: none;
+  max-width: 100%;
   min-height: 32px;
   margin: 0;
-  padding: 0 12px;
+  padding: 0 18px 0 12px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -24,23 +27,26 @@
   gap: 24px;
   color: #20384d;
   font-family: "Questrial", Arial, sans-serif;
-  font-size: 0.64rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 800;
   line-height: 1;
 }
 
 .primary-nav > a {
   color: #20384d;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .primary-nav > a:hover {
   color: #71869a;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
   .header-inner {
     min-height: 32px;
-    padding: 0 12px;
+    padding: 0 16px 0 12px;
   }
 
   .menu-toggle {
@@ -50,6 +56,6 @@
   .primary-nav {
     top: 32px;
     margin-left: 0;
-    font-size: 0.82rem;
+    font-size: 0.84rem;
   }
 }
