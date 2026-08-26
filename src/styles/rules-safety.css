@@ -1,0 +1,278 @@
+/* House rules and safety */
+
+.rules-safety-section {
+  padding: 38px 20px 72px;
+}
+
+.rules-safety-container {
+  width: min(100%, 820px);
+  margin: 0 auto;
+}
+
+.rules-safety-title {
+  margin: 0 0 28px;
+  color: var(--tuer-gold);
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(3.6rem, 5vw, 4.7rem);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1;
+}
+
+.rules-panel {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--tuer-gold);
+  border-radius: 17px;
+  background: transparent;
+}
+
+.rules-grid {
+  display: grid;
+  grid-template-columns: 0.88fr 0.9fr 1.22fr;
+  gap: 15px;
+}
+
+.rules-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.rule-item {
+  min-height: 58px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 4px;
+  border-bottom: 1px solid rgba(103, 70, 52, 0.08);
+}
+
+.rule-item:last-child {
+  border-bottom: 0;
+}
+
+.rule-icon {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #565653;
+}
+
+.rule-icon svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+}
+
+.rule-icon-prohibited::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  width: 20px;
+  height: 1.5px;
+  background: currentColor;
+  transform: rotate(48deg);
+  transform-origin: center;
+}
+
+.rule-copy {
+  min-width: 0;
+  padding-top: 1px;
+}
+
+.rule-title {
+  margin: 0;
+  color: #4c4b49;
+  font-family: Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.rule-detail {
+  margin: 4px 0 0;
+  color: #696661;
+  font-family: Arial, sans-serif;
+  font-size: 0.62rem;
+  line-height: 1.25;
+}
+
+.rules-handbook-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -3px;
+}
+
+.rules-handbook-button {
+  min-width: 145px;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 17px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--tuer-gold);
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.rules-handbook-button:hover {
+  opacity: 0.82;
+  transform: translateY(-1px);
+}
+
+@media (min-width: 901px) {
+  .rules-safety-container {
+    width: 900px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.rules-safety-section {
+  width: 100%;
+  background: #efebe5;
+}
+
+@media (max-width: 900px) {
+  .rules-safety-section {
+    padding: 42px 24px 62px;
+  }
+
+  .rules-safety-container {
+    max-width: 720px;
+  }
+
+  .rules-safety-title {
+    margin-bottom: 26px;
+    font-size: clamp(3.3rem, 8vw, 4.2rem);
+  }
+
+  .rules-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0 24px;
+  }
+
+  .rules-column:last-child {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+
+  .rules-handbook-row {
+    margin-top: 12px;
+  }
+
+  .rules-safety-section {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .rules-safety-container {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rules-panel {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .rule-copy {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .rules-safety-section {
+    padding: 38px 14px 50px;
+  }
+
+  .rules-safety-title {
+    margin-bottom: 24px;
+    font-size: clamp(2.7rem, 13vw, 3.6rem);
+    line-height: 0.95;
+  }
+
+  .rules-panel {
+    padding: 12px 16px 16px;
+    border-radius: 15px;
+  }
+
+  .rules-grid,
+  .rules-column,
+  .rules-column:last-child {
+    display: block;
+    width: 100%;
+  }
+
+  .rule-item {
+    min-height: auto;
+    padding: 13px 2px;
+    gap: 12px;
+  }
+
+  .rule-icon {
+    width: 24px;
+    height: 24px;
+    flex-basis: 24px;
+  }
+
+  .rule-icon svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .rule-icon-prohibited::after {
+    top: 11px;
+    left: 1px;
+    width: 22px;
+  }
+
+  .rule-title {
+    font-size: 0.82rem;
+  }
+
+  .rule-detail {
+    font-size: 0.67rem;
+  }
+
+  .rules-handbook-row {
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .rules-handbook-button {
+    min-width: 165px;
+    min-height: 30px;
+  }
+
+  .rules-safety-section {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .rules-safety-container {
+    width: 100%;
+    max-width: none;
+  }
+}
