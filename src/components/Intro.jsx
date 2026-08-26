@@ -1,3 +1,5 @@
+import { siteImages } from '../data/siteData.js';
+
 export default function Intro() {
   return (
     <section className="intro-section">
@@ -30,7 +32,7 @@ export default function Intro() {
 
         <div className="intro-image-wrap">
           <img
-            src="/images/suite-one.svg"
+            src={siteImages.intro}
             alt="Tuer Accommodations interior placeholder"
           />
         </div>
