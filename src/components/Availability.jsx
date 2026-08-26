@@ -1,3 +1,5 @@
+import { siteImages } from '../data/siteData.js';
+
 const calendarUnits = [
   {
     id: 'upper-unit',
@@ -33,7 +35,12 @@ export default function Availability() {
         </a>
       </div>
 
-      <div className="availability-calendar-panel">
+      <div
+        className="availability-calendar-panel"
+        style={{
+          '--availability-background-image': `url(${siteImages.backgrounds.availability})`,
+        }}
+      >
         <div className="availability-panel-overlay" />
 
         <div className="availability-calendars">
