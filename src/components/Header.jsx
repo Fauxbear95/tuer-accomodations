@@ -8,21 +8,7 @@ export default function Header() {
 
   return (
     <header className="site-header">
-      <div className="container header-inner">
-        <a
-          className="brand"
-          href="#home"
-          onClick={closeMenu}
-          aria-label="Tuer Accommodations home"
-        >
-          <span className="brand-mark">TA</span>
-
-          <span className="brand-copy">
-            <strong>Tuer</strong>
-            <span>Accommodations</span>
-          </span>
-        </a>
-
+      <div className="header-inner">
         <button
           className="menu-toggle"
           type="button"
