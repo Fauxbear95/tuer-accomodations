@@ -16,7 +16,7 @@
   inset: 0;
   background:
     linear-gradient(rgba(183, 161, 129, 0.9), rgba(183, 161, 129, 0.9)),
-    url("/images/gallery-2.svg") right center / 38% auto no-repeat;
+    var(--footer-background-image) right center / 38% auto no-repeat;
   pointer-events: none;
 }
 
@@ -163,7 +163,7 @@
   .footer-background {
     background:
       linear-gradient(rgba(183, 161, 129, 0.92), rgba(183, 161, 129, 0.92)),
-      url("/images/gallery-2.svg") right bottom / auto 75% no-repeat;
+      var(--footer-background-image) right bottom / auto 75% no-repeat;
   }
 
   .footer-content {
