@@ -8,10 +8,28 @@
     padding-right: 0;
   }
 
+  .intro-grid,
+  .about-host-container,
+  .rooms-panel,
+  .amenities-container,
+  .availability-heading,
+  .availability-calendar-panel,
+  .little-extras-layout,
+  .unit-gallery-block,
+  .unit-gallery-upper-lower-living-spaces,
+  .pricing-container,
+  .rules-safety-container,
   main > section:not(.hero) > .container {
-    width: 900px;
-    max-width: 900px;
+    width: min(calc(100% - 40px), 990px);
+    max-width: 990px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .amenities-top,
+  .amenities-bottom,
+  .pricing-panel {
+    width: 100%;
+    max-width: 100%;
   }
 }
