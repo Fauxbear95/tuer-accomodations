@@ -1,0 +1,139 @@
+/* About host */
+
+.about-host-section {
+  padding: 54px 20px 38px;
+}
+
+.about-host-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-host-title {
+  margin: 0 0 32px;
+  color: var(--tuer-gold);
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-size: clamp(3.8rem, 5vw, 4.8rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 0.92;
+}
+
+.about-host-copy {
+  color: var(--tuer-brown);
+  font-family: "Questrial", Arial, sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.52;
+}
+
+.about-host-copy p {
+  margin: 0 0 28px;
+}
+
+.about-host-copy p:nth-child(2) {
+  text-align: justify;
+}
+
+.about-host-copy p:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.host-signature {
+  margin-top: -4px;
+  margin-left: -8px;
+  color: var(--tuer-brown);
+  font-family: "Allura", cursive;
+  font-size: 4.2rem;
+  font-weight: 400;
+  line-height: 1;
+  transform: rotate(-5deg);
+  transform-origin: left center;
+}
+
+@media (min-width: 901px) {
+  .about-host-container {
+    width: 900px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.about-host-section {
+  width: 100%;
+  background: #f4f1ed;
+}
+
+@media (max-width: 900px) {
+  .about-host-section {
+    padding: 60px 28px;
+  }
+
+  .about-host-container {
+    max-width: 720px;
+  }
+
+  .about-host-title {
+    margin-bottom: 34px;
+    font-size: clamp(3.4rem, 10vw, 4.4rem);
+  }
+
+  .about-host-copy {
+    font-size: 1.05rem;
+  }
+
+  .about-host-copy p:nth-child(2) {
+    text-align: left;
+  }
+
+  .about-host-section {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .about-host-container {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-host-section {
+    padding: 48px 20px 42px;
+  }
+
+  .about-host-title {
+    margin-bottom: 30px;
+    font-size: clamp(3.1rem, 16vw, 4rem);
+  }
+
+  .about-host-copy {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .about-host-copy p {
+    margin-bottom: 24px;
+  }
+
+  .host-signature {
+    margin-top: 2px;
+    font-size: 3.6rem;
+  }
+
+  .about-host-section {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .about-host-container {
+    width: 100%;
+    max-width: none;
+  }
+}
