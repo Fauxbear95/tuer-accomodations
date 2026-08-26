@@ -1,0 +1,145 @@
+/* Reviews */
+
+.reviews-section {
+  position: relative;
+  padding: 34px 0 56px;
+  background:
+    linear-gradient(rgba(180, 154, 115, 0.62), rgba(180, 154, 115, 0.62)),
+    url("/images/gallery-2.svg") center / cover no-repeat;
+}
+
+.reviews-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.reviews-title {
+  margin: 0 0 18px;
+  color: var(--tuer-gold);
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(4rem, 6vw, 5.2rem);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+
+.reviews-subtitle {
+  max-width: 860px;
+  margin: 0 auto 44px;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: "Questrial", Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 44px;
+  align-items: start;
+  text-align: left;
+}
+
+.review-card {
+  color: #ffffff;
+}
+
+.review-quote-mark {
+  display: block;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.review-text {
+  margin: 0 0 20px;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Questrial", Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.65;
+}
+
+.review-author,
+.review-location {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.98);
+  font-family: "Questrial", Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.review-location {
+  margin-top: 2px;
+}
+
+.reviews-section {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .reviews-section {
+    padding: 42px 0 58px;
+  }
+
+  .reviews-title {
+    font-size: clamp(3.6rem, 8vw, 4.4rem);
+  }
+
+  .reviews-subtitle {
+    margin-bottom: 34px;
+    font-size: 0.78rem;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .review-card {
+    max-width: none;
+  }
+
+  .reviews-section {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .reviews-container {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reviews-grid {
+    max-width: 100%;
+  }
+
+  .review-card {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-section {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .reviews-container {
+    width: 100%;
+    max-width: none;
+  }
+}
