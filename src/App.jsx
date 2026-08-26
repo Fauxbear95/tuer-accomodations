@@ -21,7 +21,6 @@ export default function App() {
         <Intro />
         <AboutHost />
         <Suites />
-      
         <Availability />
         <Amenities />
         <Gallery />

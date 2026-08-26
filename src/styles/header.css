@@ -134,7 +134,7 @@
 .header-inner {
   width: 100%;
   max-width: 100%;
-  min-height: 32px;
+  min-height: 48px;
   margin: 0;
   padding: 0 18px 0 12px;
   box-sizing: border-box;
@@ -149,8 +149,8 @@
   gap: 24px;
   color: #20384d;
   font-family: "Questrial", Arial, sans-serif;
-  font-size: 0.72rem;
-  font-weight: 800;
+  font-size: 1rem;
+  font-weight: 1000;
   line-height: 1;
 }
 

@@ -1,9 +1,9 @@
 export const siteImages = {
   hero: '/images/hero.svg',
-  intro: '/images/suite-one.svg',
+  intro: '/images/suite-one.jpg',
 
   suites: {
-    upperUnit: '/images/suite-one.svg',
+    upperUnit: '/images/upper-unit-1.jpg',
     lowerUnit: '/images/suite-two.svg',
     entireDuplex: '/images/gallery-1.svg',
   },
