@@ -55,7 +55,8 @@
 
 .intro-image-wrap {
   width: 100%;
-  height: 700px;
+  height: auto;
+  aspect-ratio: 461 / 527;
   overflow: hidden;
   background: #ddd8d1;
 }
@@ -94,10 +95,6 @@
   .intro-copy {
     font-size: clamp(1.1rem, 1.7vw, 1.4rem);
   }
-
-  .intro-image-wrap {
-    height: 620px;
-  }
 }
 
 @media (max-width: 900px) {
@@ -122,11 +119,6 @@
   .intro-copy {
     max-width: none;
     font-size: 1.15rem;
-  }
-
-  .intro-image-wrap {
-    height: auto;
-    aspect-ratio: 7 / 8;
   }
 
   .intro-section {
@@ -170,10 +162,6 @@
 
   .intro-copy p:first-child {
     margin-bottom: 26px;
-  }
-
-  .intro-image-wrap {
-    aspect-ratio: 4 / 5;
   }
 
   .intro-section {
