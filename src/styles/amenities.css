@@ -1,0 +1,292 @@
+/* Amenities */
+
+.amenities-section {
+  padding: 12px 20px 70px;
+}
+
+.amenities-container {
+  width: min(100%, 1040px);
+  margin: 0 auto;
+}
+
+.amenities-title {
+  margin: 0 0 28px;
+  color: var(--tuer-gold);
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-size: clamp(3.8rem, 5vw, 4.6rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.amenities-top {
+  width: 760px;
+  max-width: 100%;
+  margin: 0 auto 30px;
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.amenities-bathroom-images {
+  width: 100%;
+  height: 330px;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.28fr);
+  grid-template-rows: 330px;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.amenities-bathroom-stack {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) minmax(0, 0.75fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.amenities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #171512;
+  font-family: "Questrial", Arial, sans-serif;
+  font-size: 0.83rem;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
+}
+
+.amenities-list li {
+  margin: 0;
+}
+
+.amenities-list-left {
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px 0;
+  text-align: right;
+}
+
+.amenity-photo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: #d8d3cb;
+}
+
+.amenity-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.amenities-bottom {
+  width: 740px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 580px) 130px;
+  gap: 28px;
+  align-items: center;
+}
+
+.amenities-kitchen-images {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.amenity-photo-wide {
+  height: 120px;
+}
+
+.amenities-list-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  font-size: 0.73rem;
+}
+
+@media (min-width: 901px) {
+  .amenities-container {
+    width: 900px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .amenities-top,
+  .amenities-bottom {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.amenities-section {
+  width: 100%;
+  background: #efebe5;
+}
+
+@media (max-width: 900px) {
+  .amenities-section {
+    padding: 50px 24px 60px;
+  }
+
+  .amenities-container {
+    max-width: 700px;
+  }
+
+  .amenities-top {
+    width: 100%;
+    grid-template-columns: 130px minmax(0, 1fr);
+  }
+
+  .amenities-bathroom-images {
+    height: 300px;
+    grid-template-rows: 300px;
+  }
+
+  .amenities-list-left {
+    height: 300px;
+  }
+
+  .amenities-bottom {
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr) 125px;
+  }
+
+  .amenity-photo-wide {
+    height: 105px;
+  }
+
+  .amenities-section {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .amenities-container {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .amenities-top,
+  .amenities-bottom {
+    max-width: 100%;
+  }
+
+  .amenities-bathroom-images,
+  .amenities-bathroom-stack,
+  .amenities-kitchen-images {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .amenities-section {
+    padding: 38px 14px 48px;
+  }
+
+  .amenities-title {
+    margin-bottom: 30px;
+    font-size: clamp(3.2rem, 16vw, 4rem);
+  }
+
+  .amenities-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+
+  .amenities-list-left {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px 20px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .amenities-bathroom-images {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 8px;
+    overflow: visible;
+  }
+
+  .amenity-photo-tall {
+    height: 320px;
+  }
+
+  .amenities-bathroom-stack {
+    width: 100%;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 170px;
+    gap: 8px;
+    overflow: hidden;
+  }
+
+  .amenities-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 0 auto;
+  }
+
+  .amenities-kitchen-images {
+    width: 100%;
+  }
+
+  .amenity-photo-wide {
+    height: 120px;
+  }
+
+  .amenities-list-right {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px 20px;
+    text-align: center;
+    font-size: 0.78rem;
+  }
+
+  .amenities-section {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .amenities-container {
+    width: 100%;
+    max-width: none;
+  }
+}
