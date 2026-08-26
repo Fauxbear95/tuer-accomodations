@@ -1,8 +1,10 @@
+import { siteImages } from '../data/siteData.js';
+
 export default function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-media" aria-hidden="true">
-        <img src="/images/hero.svg" alt="" />
+        <img src={siteImages.hero} alt="" />
       </div>
 
       <div className="hero-overlay" />
