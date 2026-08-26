@@ -26,7 +26,7 @@
   margin: 0 0 10px;
   color: var(--tuer-gold);
   font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
-  font-size: 3.65rem;
+  font-size: clamp(3.65rem, 4vw, 4.4rem);
   font-weight: 400;
   letter-spacing: -0.02em;
   line-height: 1.01;
@@ -37,7 +37,7 @@
   max-width: 590px;
   color: var(--tuer-brown);
   font-family: "Questrial", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: clamp(1.1rem, 1.15vw, 1.25rem);
   line-height: 1.5;
 }
 
@@ -89,11 +89,11 @@
   }
 
   .intro-title {
-    font-size: clamp(3rem, 4.4vw, 3.65rem);
+    font-size: clamp(3.6rem, 5vw, 4.2rem);
   }
 
   .intro-copy {
-    font-size: clamp(1.1rem, 1.7vw, 1.4rem);
+    font-size: clamp(1.1rem, 1.6vw, 1.2rem);
   }
 }
 
