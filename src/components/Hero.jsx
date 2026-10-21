@@ -13,7 +13,8 @@ export default function Hero() {
         <p className="hero-welcome">WELCOME TO</p>
 
         <h1 className="hero-title">
-          Tuer Accommodations
+          <span className="hero-title-line">Tuer</span>
+          <span className="hero-title-line">Accommodations</span>
         </h1>
 
         <a
