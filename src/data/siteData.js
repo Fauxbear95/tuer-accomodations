@@ -63,7 +63,7 @@ export const siteImages = {
   },
 
   backgrounds: {
-    availability: '/images/gallery-2.svg',
+    availability: '/images/calendarbackground.webp',
     reviews: '/images/footer.png',
     footer: '/images/footer.png',
   },
