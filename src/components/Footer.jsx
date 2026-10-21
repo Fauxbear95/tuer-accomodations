@@ -5,8 +5,8 @@ function InstagramIcon({ className }) {
     <svg
       className={className}
       viewBox="0 0 24 24"
-      width="28"
-      height="28"
+      width="34"
+      height="34"
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
@@ -59,7 +59,7 @@ export default function Footer() {
           >
             <MapPin
               className="footer-icon"
-              size={30}
+              size={36}
               strokeWidth={2}
             />
 
@@ -70,10 +70,15 @@ export default function Footer() {
 
           <a
             className="footer-instagram-link"
-            href="#"
+            href="https://www.instagram.com/boho_meets_modern_airbnb"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Visit Tuer Accommodations on Instagram"
           >
             <InstagramIcon className="footer-icon" />
+            <span className="footer-instagram-label">
+              Instagram — @boho_meets_modern_airbnb
+            </span>
           </a>
         </div>
 
