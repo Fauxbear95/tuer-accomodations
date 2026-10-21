@@ -69,11 +69,13 @@
   background: #ffffff;
   color: var(--tuer-brown);
   border: none;
+  text-decoration: none;
 }
 
 .hero-request-button:hover {
   background: var(--tuer-background);
   color: var(--tuer-brown);
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
