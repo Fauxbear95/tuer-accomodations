@@ -144,6 +144,24 @@
   .amenities-container .amenities-bottom {
     width: 100%;
     max-width: none;
+    grid-template-columns: minmax(0, 1fr) 190px;
+    gap: 18px;
+    align-items: start;
+  }
+
+  .amenities-kitchen-images {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .amenity-photo-wide {
+    height: auto;
+  }
+
+  .amenities-list-right {
+    width: 100%;
+    font-size: 1.05rem;
+    line-height: 1.25;
   }
 
   .amenities-bathroom-images {
