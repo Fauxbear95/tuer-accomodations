@@ -467,7 +467,7 @@
 
   .unit-gallery-lower-bedrooms .unit-gallery-images-bedroom-mosaic-wide-right {
     height: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.82fr 1fr;
     grid-template-rows: auto auto;
     gap: 8px;
     align-items: start;
