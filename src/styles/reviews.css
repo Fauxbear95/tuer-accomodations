@@ -2,7 +2,7 @@
 
 .reviews-section {
   position: relative;
-  padding: 34px 0 56px;
+  padding: 34px 0 191px;
   background:
     linear-gradient(rgba(180, 154, 115, 0.62), rgba(180, 154, 115, 0.62)),
     var(--reviews-background-image) center / cover no-repeat;
@@ -88,7 +88,7 @@
 
 @media (max-width: 900px) {
   .reviews-section {
-    padding: 42px 0 58px;
+    padding: 42px 0 203px;
   }
 
   .reviews-title {
@@ -136,6 +136,7 @@
   .reviews-section {
     padding-left: 14px;
     padding-right: 14px;
+    padding-bottom: 330px;
   }
 
   .reviews-container {
