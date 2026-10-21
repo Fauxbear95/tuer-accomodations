@@ -154,7 +154,7 @@
     position: relative;
     box-sizing: border-box;
     padding: 10px 16px 14px;
-    border-width: 3px;
+    border-width: 4px;
     border-radius: 25px;
   }
 
@@ -189,6 +189,7 @@
   }
 
   .rule-title {
+    color: #3f3d3a;
     font-family: "Questrial", Arial, sans-serif;
     font-size: 1.1rem;
     line-height: 1.2;
@@ -196,6 +197,7 @@
 
   .rule-detail {
     margin-top: 4px;
+    color: #55514d;
     font-family: "Questrial", Arial, sans-serif;
     font-size: 0.76rem;
     line-height: 1.25;
