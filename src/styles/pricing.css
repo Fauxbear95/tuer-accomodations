@@ -228,7 +228,7 @@
 
 @media (min-width: 901px) {
   .pricing-section {
-    padding-top: 18px;
+    padding-top: 14px;
     padding-bottom: 72px;
   }
 
@@ -246,12 +246,13 @@
     box-sizing: border-box;
     width: 100%;
     max-width: none;
-    padding: 18px 70px 22px;
+    padding: 18px 70px 24px;
+    background: #e0d8d1;
     border-radius: 50% 50% 0 0 / 30% 30% 0 0;
   }
 
   .pricing-stay {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .pricing-stay p {
@@ -260,12 +261,24 @@
   }
 
   .pricing-unit-list {
-    width: min(100%, 360px);
+    width: min(100%, 440px);
     margin-bottom: 38px;
   }
 
   .pricing-unit {
     padding: 12px 0;
+  }
+
+  .pricing-unit:nth-child(1) {
+    padding: 13px 0 17px;
+  }
+
+  .pricing-unit:nth-child(2) {
+    padding: 24px 0;
+  }
+
+  .pricing-unit:nth-child(3) {
+    padding: 20px 0 12px;
   }
 
   .pricing-unit p {
@@ -278,7 +291,7 @@
   }
 
   .pricing-details {
-    width: min(100%, 520px);
+    width: min(100%, 425px);
   }
 
   .pricing-detail {
