@@ -36,6 +36,11 @@
     max-width: 1400px;
   }
 
+  .little-extras-layout {
+    width: min(calc(100% - 40px), 970px);
+    max-width: 970px;
+  }
+
   .intro-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
