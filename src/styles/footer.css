@@ -2,21 +2,20 @@
 
 .site-footer {
   position: relative;
+  z-index: 2;
   width: 100%;
   max-width: none;
-  margin: 0;
+  margin: -135px 0 0;
   padding: 0;
   overflow: hidden;
-  background: #b7a181;
+  background: transparent;
   color: #ffffff;
 }
 
 .footer-background {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(rgba(183, 161, 129, 0.9), rgba(183, 161, 129, 0.9)),
-    var(--footer-background-image) right center / 38% auto no-repeat;
+  background: rgba(183, 161, 129, 0.78);
   pointer-events: none;
 }
 
@@ -120,6 +119,7 @@
   .site-footer {
     width: 100%;
     max-width: none;
+    margin-top: -145px;
   }
 
   .footer-content {
@@ -159,12 +159,11 @@
   .site-footer {
     width: 100%;
     max-width: none;
+    margin-top: -300px;
   }
 
   .footer-background {
-    background:
-      linear-gradient(rgba(183, 161, 129, 0.92), rgba(183, 161, 129, 0.92)),
-      var(--footer-background-image) right bottom / auto 75% no-repeat;
+    background: rgba(183, 161, 129, 0.82);
   }
 
   .footer-content {
