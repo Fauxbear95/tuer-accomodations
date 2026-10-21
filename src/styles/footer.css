@@ -86,20 +86,21 @@
   align-items: center;
   justify-content: center;
   padding: 10px 30px;
+  border-radius: 999px;
   background: #ffffff;
-  color: #583b28;
+  color: var(--tuer-brown);
   font-family: "Questrial", Arial, sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.2em;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: background 180ms ease, transform 180ms ease;
+  text-decoration: none;
+  transition: background 180ms ease, color 180ms ease;
 }
 
 .footer-request-button:hover {
-  background: #f4f1ed;
-  transform: translateY(-1px);
+  background: var(--tuer-background);
+  color: var(--tuer-brown);
+  text-decoration: none;
 }
 
 .footer-right {
