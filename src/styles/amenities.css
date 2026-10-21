@@ -27,30 +27,28 @@
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
   gap: 18px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .amenities-bathroom-images {
   width: 100%;
-  height: 330px;
+  height: auto;
   min-width: 0;
   min-height: 0;
   display: grid;
-  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.28fr);
-  grid-template-rows: 330px;
+  grid-template-columns: minmax(0, 0.74fr) minmax(0, 1fr);
   gap: 10px;
-  overflow: hidden;
+  align-items: start;
 }
 
 .amenities-bathroom-stack {
   width: 100%;
-  height: 100%;
+  height: auto;
   min-width: 0;
   min-height: 0;
   display: grid;
-  grid-template-rows: minmax(0, 1fr) minmax(0, 0.75fr);
+  grid-template-rows: auto auto;
   gap: 10px;
-  overflow: hidden;
 }
 
 .amenities-list {
@@ -69,7 +67,7 @@
 }
 
 .amenities-list-left {
-  height: 330px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -80,20 +78,16 @@
 .amenity-photo {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   min-width: 0;
   min-height: 0;
-  overflow: hidden;
   background: #d8d3cb;
 }
 
 .amenity-photo img {
-  position: absolute;
-  inset: 0;
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
 }
 
 .amenities-bottom {
@@ -160,12 +154,11 @@
   }
 
   .amenities-bathroom-images {
-    height: 300px;
-    grid-template-rows: 300px;
+    height: auto;
   }
 
   .amenities-list-left {
-    height: 300px;
+    height: auto;
   }
 
   .amenities-bottom {
@@ -242,17 +235,16 @@
   }
 
   .amenity-photo-tall {
-    height: 320px;
+    height: auto;
   }
 
   .amenities-bathroom-stack {
     width: 100%;
-    height: 170px;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 170px;
+    grid-template-rows: auto;
     gap: 8px;
-    overflow: hidden;
   }
 
   .amenities-bottom {
