@@ -36,7 +36,7 @@ export const siteImages = {
     ],
     upperBedrooms: [
       '/images/bedroom-1.png',
-      '/images/bedroom-2.png',
+      '/images/bedroom-2.git pupng',
       '/images/bedroom-3.png',
     ],
     lowerKitchen: [
@@ -63,8 +63,8 @@ export const siteImages = {
 
   backgrounds: {
     availability: '/images/gallery-2.svg',
-    reviews: '/images/gallery-2.svg',
-    footer: '/images/gallery-2.svg',
+    reviews: '/images/footer.png',
+    footer: '/images/footer.png',
   },
 };
 
