@@ -31,6 +31,11 @@
     max-width: 1350px;
   }
 
+  .about-host-container {
+    width: min(calc(100% - 80px), 92vw, 1400px);
+    max-width: 1400px;
+  }
+
   .intro-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
