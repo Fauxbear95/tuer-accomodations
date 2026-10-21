@@ -135,11 +135,79 @@
 }
 
 @media (min-width: 901px) {
+  .rules-safety-section {
+    padding-top: 26px;
+  }
+
   .rules-safety-container {
-    width: 900px;
-    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .rules-safety-title {
+    margin-bottom: 30px;
+    font-size: 5.25rem;
+    line-height: 0.95;
+  }
+
+  .rules-panel {
+    padding: 10px 16px 14px;
+    border-width: 3px;
+    border-radius: 22px;
+  }
+
+  .rules-grid {
+    grid-template-columns: 0.88fr 0.9fr 1.22fr;
+    gap: 18px;
+  }
+
+  .rule-item {
+    min-height: 58px;
+    gap: 12px;
+    padding: 10px 4px;
+    border-bottom-color: rgba(103, 70, 52, 0.12);
+  }
+
+  .rule-icon {
+    width: 26px;
+    height: 26px;
+    flex-basis: 26px;
+  }
+
+  .rule-icon svg {
+    width: 22px;
+    height: 22px;
+    stroke-width: 1.7;
+  }
+
+  .rule-icon-prohibited::after {
+    top: 12px;
+    width: 24px;
+    height: 1.7px;
+  }
+
+  .rule-title {
+    font-family: "Questrial", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .rule-detail {
+    margin-top: 4px;
+    font-family: "Questrial", Arial, sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.25;
+  }
+
+  .rules-handbook-row {
+    margin-top: -1px;
+  }
+
+  .rules-handbook-button {
+    min-width: 175px;
+    min-height: 28px;
+    padding: 4px 18px;
+    font-size: 0.86rem;
   }
 }
 
