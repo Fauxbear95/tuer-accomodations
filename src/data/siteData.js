@@ -1,6 +1,7 @@
 export const siteImages = {
   hero: '/images/hero.png',
   intro: '/images/suite-one.jpg',
+  logo: '/images/tuer-logo.png',
 
   suites: {
     upperUnit: '/images/upper-unit-1.jpg',
