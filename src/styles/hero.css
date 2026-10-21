@@ -2,8 +2,9 @@
 
 .hero {
   position: relative;
-  min-height: 760px;
   width: 100%;
+  height: clamp(250px, calc(67vw - 57px), 630px);
+  min-height: 0;
   overflow: hidden;
   background: #687068;
   color: #ffffff;
@@ -23,7 +24,10 @@
 }
 
 .hero-overlay {
-  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(105, 78, 42, 0.32);
 }
 
 .hero-content {
@@ -80,11 +84,6 @@
 }
 
 @media (min-width: 901px) {
-  .hero {
-    min-height: 0;
-    height: clamp(520px, 55vw, 565px);
-  }
-
   .hero-media {
     position: absolute;
     inset: 0;
@@ -101,10 +100,6 @@
 }
 
 @media (max-width: 900px) {
-  .hero {
-    min-height: 670px;
-  }
-
   .hero-title {
     font-size: clamp(3rem, 10vw, 5rem);
   }
@@ -115,14 +110,6 @@
 }
 
 @media (max-width: 600px) {
-  .hero {
-    min-height: 620px;
-  }
-
-  .hero-overlay {
-    background: rgba(18, 27, 22, 0.48);
-  }
-
   .hero-content {
     padding: 24px;
   }
