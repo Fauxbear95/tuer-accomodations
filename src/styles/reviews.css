@@ -3,7 +3,9 @@
 .reviews-section {
   position: relative;
   padding: 34px 0 191px;
-  background: var(--reviews-background-image) center / cover no-repeat;
+  background:
+    linear-gradient(rgba(112, 82, 45, 0.44), rgba(112, 82, 45, 0.44)),
+    var(--reviews-background-image) center / cover no-repeat;
 }
 
 .reviews-container {
