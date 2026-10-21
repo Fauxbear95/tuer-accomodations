@@ -3,7 +3,8 @@
 .hero {
   position: relative;
   width: 100%;
-  height: clamp(250px, calc(67vw - 57px), 630px);
+  height: calc(100vh - 32px);
+  height: calc(100svh - 32px);
   min-height: 0;
   overflow: hidden;
   background: #687068;
@@ -27,7 +28,7 @@
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: rgba(105, 78, 42, 0.32);
+  background: rgba(112, 82, 45, 0.44);
 }
 
 .hero-content {
@@ -106,6 +107,13 @@
 
   .hero-content {
     max-width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    height: clamp(250px, 56.25vw, 432px);
   }
 }
 
