@@ -27,14 +27,15 @@ export default function Pricing() {
                   {unit.name}: {unit.price} (per month)
                 </p>
 
-                <p
-                  className={
-                    unit.id === 'upper-unit'
-                      ? 'pricing-unit-note pricing-unit-note-bold'
-                      : 'pricing-unit-note'
-                  }
-                >
-                  {unit.note}
+                <p className="pricing-unit-note">
+                  {unit.id === 'upper-unit' ? (
+                    <strong>{unit.note}</strong>
+                  ) : (
+                    <>
+                      <strong>Pet fee:</strong>
+                      {unit.note.replace('Pet fee:', '')}
+                    </>
+                  )}
                 </p>
               </div>
             ))}
@@ -50,7 +51,15 @@ export default function Pricing() {
                     : 'pricing-detail'
                 }
               >
-                {detail}
+                {index === 2 ? (
+                  <>
+                    {detail.split('per pet.')[0]}
+                    <strong>per pet.</strong>
+                    {detail.split('per pet.')[1]}
+                  </>
+                ) : (
+                  detail
+                )}
               </p>
             ))}
           </div>
