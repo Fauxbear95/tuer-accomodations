@@ -102,11 +102,31 @@
 }
 
 @media (min-width: 901px) {
-  .rooms-panel {
-    width: 900px;
-    max-width: 900px;
+  .rooms-section .rooms-panel {
+    width: min(calc(100% - 40px), 1040px);
+    max-width: 1040px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .rooms-title {
+    font-size: 5.35rem;
+  }
+
+  .rooms-grid {
+    gap: 36px;
+  }
+
+  .room-card-heading h3 {
+    font-size: 1.12rem;
+  }
+
+  .room-card-heading p {
+    font-size: 0.76rem;
+  }
+
+  .rooms-description p {
+    font-size: 1rem;
   }
 }
 
