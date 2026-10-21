@@ -393,6 +393,39 @@
     height: auto;
     object-fit: initial;
   }
+
+  .unit-gallery-lower-kitchen .unit-gallery-heading {
+    margin-bottom: 12px;
+  }
+
+  .unit-gallery-lower-kitchen .unit-gallery-heading h2 {
+    font-size: 5.2rem;
+  }
+
+  .unit-gallery-lower-kitchen .unit-gallery-heading p {
+    font-size: 2.9rem;
+  }
+
+  .unit-gallery-lower-kitchen .unit-gallery-images-three-column {
+    height: auto;
+    grid-template-columns: 520fr 796fr 585fr;
+    gap: 8px;
+    align-items: start;
+  }
+
+  .unit-gallery-lower-kitchen .unit-gallery-photo {
+    height: auto;
+    overflow: visible;
+    background: transparent;
+  }
+
+  .unit-gallery-lower-kitchen .unit-gallery-photo img {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: initial;
+  }
 }
 
 .gallery-section {
