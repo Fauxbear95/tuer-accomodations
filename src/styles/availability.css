@@ -46,12 +46,14 @@
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.18em;
+  text-decoration: none;
   transition: background 180ms ease, color 180ms ease;
 }
 
 .availability-request-button:hover {
   background: #e7dfd5;
   color: var(--tuer-gold);
+  text-decoration: none;
 }
 
 .availability-calendar-panel {
