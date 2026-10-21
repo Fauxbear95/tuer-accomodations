@@ -41,6 +41,11 @@
     max-width: 1175px;
   }
 
+  .unit-gallery-block.unit-gallery-upper-kitchen {
+    width: min(calc(100% - 40px), 960px);
+    max-width: 960px;
+  }
+
   .intro-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
