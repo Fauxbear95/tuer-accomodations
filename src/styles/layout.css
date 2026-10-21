@@ -37,8 +37,8 @@
   }
 
   .little-extras-layout {
-    width: min(calc(100% - 40px), 970px);
-    max-width: 970px;
+    width: min(calc(100% - 40px), 1175px);
+    max-width: 1175px;
   }
 
   .intro-grid {
