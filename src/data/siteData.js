@@ -37,7 +37,7 @@ export const siteImages = {
     ],
     upperBedrooms: [
       '/images/bedroom-1.png',
-      '/images/bedroom-2.git pupng',
+      '/images/bedroom-2.png',
       '/images/bedroom-3.png',
     ],
     lowerKitchen: [
