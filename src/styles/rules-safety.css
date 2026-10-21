@@ -151,9 +151,11 @@
   }
 
   .rules-panel {
+    position: relative;
+    box-sizing: border-box;
     padding: 10px 16px 14px;
     border-width: 3px;
-    border-radius: 22px;
+    border-radius: 25px;
   }
 
   .rules-grid {
@@ -165,49 +167,52 @@
     min-height: 58px;
     gap: 12px;
     padding: 10px 4px;
-    border-bottom-color: rgba(103, 70, 52, 0.12);
+    border-bottom-color: rgba(103, 70, 52, 0.1);
   }
 
   .rule-icon {
-    width: 26px;
-    height: 26px;
-    flex-basis: 26px;
+    width: 28px;
+    height: 28px;
+    flex-basis: 28px;
   }
 
   .rule-icon svg {
-    width: 22px;
-    height: 22px;
-    stroke-width: 1.7;
+    width: 24px;
+    height: 24px;
+    stroke-width: 1.8;
   }
 
   .rule-icon-prohibited::after {
-    top: 12px;
-    width: 24px;
-    height: 1.7px;
+    top: 13px;
+    width: 26px;
+    height: 1.8px;
   }
 
   .rule-title {
     font-family: "Questrial", Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.2;
   }
 
   .rule-detail {
     margin-top: 4px;
     font-family: "Questrial", Arial, sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.76rem;
     line-height: 1.25;
   }
 
   .rules-handbook-row {
-    margin-top: -1px;
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+    margin: 0;
   }
 
   .rules-handbook-button {
-    min-width: 175px;
-    min-height: 28px;
-    padding: 4px 18px;
-    font-size: 0.86rem;
+    min-width: 215px;
+    min-height: 31px;
+    padding: 4px 20px;
+    font-size: 0.96rem;
   }
 }
 
