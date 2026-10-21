@@ -130,15 +130,13 @@
   }
 
   .amenities-container {
-    width: 900px;
-    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .amenities-container .amenities-top {
-    width: min(100%, 930px);
-    max-width: 930px;
+    width: 100%;
+    max-width: none;
     grid-template-columns: 180px minmax(0, 1fr);
     gap: 18px;
   }
@@ -149,16 +147,16 @@
   }
 
   .amenities-bathroom-images {
-    grid-template-columns: minmax(0, 0.69fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 0.74fr) minmax(0, 1fr);
     gap: 20px;
-    align-items: stretch;
+    align-items: start;
   }
 
   .amenities-bathroom-stack {
-    height: 100%;
-    grid-template-rows: minmax(0, 1fr) minmax(0, 0.75fr);
+    height: auto;
+    grid-template-rows: auto auto;
     gap: 12px;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .amenities-list {
@@ -171,15 +169,15 @@
   }
 
   .amenities-bathroom-stack .amenity-photo {
-    height: 100%;
-    overflow: hidden;
+    height: auto;
+    overflow: visible;
   }
 
   .amenities-bathroom-stack .amenity-photo img {
+    display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+    height: auto;
+    object-fit: initial;
   }
 }
 
