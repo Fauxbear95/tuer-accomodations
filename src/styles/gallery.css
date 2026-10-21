@@ -247,7 +247,7 @@
   }
 
   .little-extras-layout {
-    grid-template-columns: 285px minmax(0, 1fr);
+    grid-template-columns: 345px minmax(0, 1fr);
     gap: 20px;
     align-items: stretch;
   }
@@ -259,8 +259,8 @@
   }
 
   .little-extras-title {
-    margin-bottom: 16px;
-    font-size: 2.85rem;
+    margin-bottom: 18px;
+    font-size: 3.45rem;
     line-height: 0.9;
   }
 
@@ -269,7 +269,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 0.94rem;
+    font-size: 1.14rem;
     line-height: 1.08;
   }
 
@@ -280,7 +280,7 @@
   .little-extras-images {
     width: 100%;
     height: auto;
-    aspect-ratio: 1.28;
+    aspect-ratio: 1.25;
     grid-template-columns: 1.147fr 1fr;
     gap: 8px;
   }
