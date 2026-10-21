@@ -227,14 +227,63 @@
 /* Prevent the pricing panel from overflowing between tablet and desktop widths. */
 
 @media (min-width: 901px) {
+  .pricing-section {
+    padding-top: 18px;
+    padding-bottom: 72px;
+  }
+
+  .pricing-title {
+    margin-bottom: 18px;
+    font-size: 5rem;
+  }
+
   .pricing-container {
-    width: min(100%, 975px);
-    max-width: 975px;
+    width: 100%;
+    max-width: 1400px;
   }
 
   .pricing-panel {
     box-sizing: border-box;
-    width: min(100%, 975px);
-    max-width: 975px;
+    width: 100%;
+    max-width: none;
+    padding: 18px 70px 22px;
+    border-radius: 50% 50% 0 0 / 30% 30% 0 0;
+  }
+
+  .pricing-stay {
+    margin-bottom: 20px;
+  }
+
+  .pricing-stay p {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  .pricing-unit-list {
+    width: min(100%, 360px);
+    margin-bottom: 38px;
+  }
+
+  .pricing-unit {
+    padding: 12px 0;
+  }
+
+  .pricing-unit p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .pricing-unit-note {
+    font-size: 0.95rem !important;
+  }
+
+  .pricing-details {
+    width: min(100%, 520px);
+  }
+
+  .pricing-detail {
+    margin-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.35;
   }
 }
