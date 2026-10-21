@@ -12,9 +12,9 @@ export const siteImages = {
     bathroomMain: '/images/gallery-1.jpg',
     bathroomDetailOne: '/images/gallery-2.jpg',
     bathroomDetailTwo: '/images/gallery-3.jpg',
-    kitchenDetailOne: '/images/gallery-4.svg',
-    kitchenDetailTwo: '/images/gallery-5.svg',
-    kitchenDetailThree: '/images/gallery-6.svg',
+    kitchenDetailOne: '/images/gallery-4.png',
+    kitchenDetailTwo: '/images/gallery-5.png',
+    kitchenDetailThree: '/images/gallery-6.png',
   },
 
   littleExtras: {
