@@ -124,7 +124,7 @@
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.72rem;
   letter-spacing: 0.08em;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
   transition: opacity 180ms ease, transform 180ms ease;
 }
@@ -132,6 +132,7 @@
 .rules-handbook-button:hover {
   opacity: 0.82;
   transform: translateY(-1px);
+  text-decoration: none;
 }
 
 @media (min-width: 901px) {
