@@ -1,5 +1,4 @@
 import { MapPin } from 'lucide-react';
-import { siteImages } from '../data/siteData.js';
 
 function InstagramIcon({ className }) {
   return (
@@ -46,9 +45,6 @@ export default function Footer() {
     <footer className="site-footer">
       <div
         className="footer-background"
-        style={{
-          '--footer-background-image': `url(${siteImages.backgrounds.footer})`,
-        }}
         aria-hidden="true"
       />
 
