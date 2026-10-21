@@ -1,4 +1,5 @@
 import { MapPin } from 'lucide-react';
+import { siteImages } from '../data/siteData.js';
 
 function InstagramIcon({ className }) {
   return (
@@ -92,10 +93,11 @@ export default function Footer() {
         </div>
 
         <div className="footer-right">
-          <div className="footer-logo-placeholder">
-            TUER
-            <span>ACCOMMODATIONS</span>
-          </div>
+          <img
+            className="footer-logo"
+            src={siteImages.logo}
+            alt="Tuer Accommodations"
+          />
         </div>
       </div>
     </footer>
