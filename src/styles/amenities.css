@@ -120,6 +120,15 @@
 }
 
 @media (min-width: 901px) {
+  .amenities-section {
+    padding-top: 18px;
+  }
+
+  .amenities-title {
+    margin-bottom: 34px;
+    font-size: 5rem;
+  }
+
   .amenities-container {
     width: 900px;
     max-width: 900px;
@@ -127,10 +136,50 @@
     margin-right: auto;
   }
 
-  .amenities-top,
-  .amenities-bottom {
+  .amenities-container .amenities-top {
+    width: min(100%, 930px);
+    max-width: 930px;
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .amenities-container .amenities-bottom {
     width: 100%;
     max-width: none;
+  }
+
+  .amenities-bathroom-images {
+    grid-template-columns: minmax(0, 0.69fr) minmax(0, 1fr);
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .amenities-bathroom-stack {
+    height: 100%;
+    grid-template-rows: minmax(0, 1fr) minmax(0, 0.75fr);
+    gap: 12px;
+    overflow: hidden;
+  }
+
+  .amenities-list {
+    font-size: 1.2rem;
+    letter-spacing: 0.04em;
+  }
+
+  .amenities-list-left {
+    height: 100%;
+  }
+
+  .amenities-bathroom-stack .amenity-photo {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .amenities-bathroom-stack .amenity-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
