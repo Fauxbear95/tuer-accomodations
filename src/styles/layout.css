@@ -46,7 +46,8 @@
   .unit-gallery-block.unit-gallery-upper-bedrooms,
   .unit-gallery-block.unit-gallery-lower-kitchen,
   .unit-gallery-block.unit-gallery-lower-bathroom,
-  .unit-gallery-block.unit-gallery-lower-bedrooms {
+  .unit-gallery-block.unit-gallery-lower-bedrooms,
+  .unit-gallery-block.unit-gallery-upper-lower-living-spaces {
     width: min(calc(100% - 40px), 1180px);
     max-width: 1180px;
   }
