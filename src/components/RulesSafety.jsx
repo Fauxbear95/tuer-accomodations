@@ -91,12 +91,14 @@ export default function RulesSafety() {
           </div>
 
           <div className="rules-handbook-row">
-            <button
+            <a
               className="rules-handbook-button"
-              type="button"
+              href="https://docs.google.com/document/d/1-UfNJlGkCA0ml2LLEAgoNVe9KKvj4Bo0ETllVlUXoMI/edit?usp=drivesdk"
+              target="_blank"
+              rel="noreferrer"
             >
               VIEW HANDBOOK
-            </button>
+            </a>
           </div>
         </div>
       </div>
