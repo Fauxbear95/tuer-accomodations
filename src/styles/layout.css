@@ -26,6 +26,11 @@
     margin-right: auto;
   }
 
+  .amenities-container {
+    width: min(calc(100% - 40px), max(1100px, 88vw), 1350px);
+    max-width: 1350px;
+  }
+
   .intro-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
