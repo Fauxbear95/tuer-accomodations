@@ -78,6 +78,26 @@
   text-decoration: none;
 }
 
+@media (min-width: 901px) {
+  .hero {
+    min-height: 0;
+    height: auto;
+  }
+
+  .hero-media {
+    position: relative;
+    inset: auto;
+    height: auto;
+  }
+
+  .hero-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: initial;
+  }
+}
+
 @media (max-width: 900px) {
   .hero {
     min-height: 670px;
