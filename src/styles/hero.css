@@ -82,7 +82,7 @@
 @media (min-width: 901px) {
   .hero {
     min-height: 0;
-    height: clamp(560px, 55vw, 760px);
+    height: clamp(520px, 55vw, 565px);
   }
 
   .hero-media {
@@ -95,8 +95,8 @@
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: fill;
-    object-position: center;
+    object-fit: cover;
+    object-position: center center;
   }
 }
 
