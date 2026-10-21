@@ -1,11 +1,11 @@
 export const siteImages = {
-  hero: '/images/hero.svg',
+  hero: '/images/hero.png',
   intro: '/images/suite-one.jpg',
 
   suites: {
     upperUnit: '/images/upper-unit-1.jpg',
-    lowerUnit: '/images/suite-two.svg',
-    entireDuplex: '/images/gallery-1.svg',
+    lowerUnit: '/images/lower-unit-1.jpg',
+    entireDuplex: '/images/Entire-Duplex.png',
   },
 
   amenities: {

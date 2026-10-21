@@ -66,13 +66,12 @@
   min-width: 150px;
   margin-top: 34px;
   justify-content: center;
-  border-color: #000000;
   background: #ffffff;
   color: var(--tuer-brown);
+  border: none;
 }
 
 .hero-request-button:hover {
-  border-color: #000000;
   background: var(--tuer-background);
   color: var(--tuer-brown);
 }
