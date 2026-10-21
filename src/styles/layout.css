@@ -41,6 +41,11 @@
     max-width: 1175px;
   }
 
+  .pricing-container {
+    width: min(calc(100% - 8px), 1400px);
+    max-width: 1400px;
+  }
+
   .unit-gallery-block.unit-gallery-upper-kitchen,
   .unit-gallery-block.unit-gallery-upper-bathroom,
   .unit-gallery-block.unit-gallery-upper-bedrooms,
