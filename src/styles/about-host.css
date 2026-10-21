@@ -53,11 +53,32 @@
 }
 
 @media (min-width: 901px) {
+  .about-host-section {
+    padding-top: 96px;
+    padding-bottom: 52px;
+  }
+
   .about-host-container {
-    width: 900px;
-    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .about-host-title {
+    margin-bottom: 36px;
+    font-size: clamp(5.25rem, 6.2vw, 6rem);
+  }
+
+  .about-host-copy {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
+  .about-host-copy p {
+    margin-bottom: 32px;
+  }
+
+  .host-signature {
+    font-size: 5.8rem;
   }
 }
 
