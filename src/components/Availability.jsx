@@ -1,19 +1,7 @@
-import { siteImages } from '../data/siteData.js';
-
-const calendarUnits = [
-  {
-    id: 'upper-unit',
-    title: 'UPPER UNIT',
-  },
-  {
-    id: 'lower-unit',
-    title: 'LOWER UNIT',
-  },
-  {
-    id: 'entire-duplex',
-    title: 'ENTIRE DUPLEX',
-  },
-];
+import {
+  availabilityCalendars,
+  siteImages,
+} from '../data/siteData.js';
 
 export default function Availability() {
   return (
@@ -44,17 +32,19 @@ export default function Availability() {
         <div className="availability-panel-overlay" />
 
         <div className="availability-calendars">
-          {calendarUnits.map((unit) => (
+          {availabilityCalendars.map((calendar) => (
             <div
               className="availability-calendar-column"
-              key={unit.id}
+              key={calendar.id}
             >
-              <h3>{unit.title}</h3>
+              <h3>{calendar.title}</h3>
 
-              <div className="calendar-embed-placeholder">
-                <span>CALENDAR</span>
-                <small>Embed placeholder</small>
-              </div>
+              <iframe
+                className="availability-calendar-frame"
+                src={calendar.url}
+                title={`${calendar.title} availability calendar`}
+                loading="lazy"
+              />
             </div>
           ))}
         </div>
