@@ -18,8 +18,8 @@ export const siteImages = {
   },
 
   littleExtras: {
-    patio: '/images/gallery-1.svg',
-    outdoor: '/images/gallery-2.svg',
+    patio: '/images/extras-1.png',
+    outdoor: '/images/extras-2.png',
   },
 
   gallery: {
