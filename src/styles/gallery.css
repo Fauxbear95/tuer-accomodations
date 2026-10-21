@@ -472,6 +472,40 @@
     gap: 8px;
     align-items: start;
   }
+
+  .unit-gallery-upper-lower-living-spaces .unit-gallery-heading {
+    margin-bottom: 12px;
+  }
+
+  .unit-gallery-upper-lower-living-spaces .unit-gallery-heading h2 {
+    font-size: 5.2rem;
+  }
+
+  .unit-gallery-upper-lower-living-spaces .unit-gallery-heading p {
+    font-size: 2.9rem;
+  }
+
+  .unit-gallery-upper-lower-living-spaces .unit-gallery-images-living-spaces-mosaic {
+    height: auto;
+    grid-template-columns: 1fr 0.96fr;
+    grid-template-rows: auto auto;
+    gap: 8px;
+    align-items: start;
+  }
+
+  .unit-gallery-upper-lower-living-spaces .unit-gallery-photo {
+    height: auto;
+    overflow: visible;
+    background: transparent;
+  }
+
+  .unit-gallery-upper-lower-living-spaces .unit-gallery-photo img {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: initial;
+  }
 }
 
 .gallery-section {
