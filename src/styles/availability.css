@@ -106,12 +106,28 @@
 }
 
 @media (min-width: 901px) {
-  .availability-heading,
-  .availability-calendar-panel {
+  .availability-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .availability-heading {
     width: 900px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .availability-calendar-panel {
+    width: 100%;
+    max-width: none;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .availability-calendar-frame {
+    height: 295px;
   }
 }
 
