@@ -245,6 +245,54 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .little-extras-layout {
+    grid-template-columns: 285px minmax(0, 1fr);
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .little-extras-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+  }
+
+  .little-extras-title {
+    margin-bottom: 16px;
+    font-size: 2.85rem;
+    line-height: 0.9;
+  }
+
+  .little-extras-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.94rem;
+    line-height: 1.08;
+  }
+
+  .little-extras-list li {
+    margin-bottom: 0;
+  }
+
+  .little-extras-images {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.28;
+    grid-template-columns: 1.147fr 1fr;
+    gap: 8px;
+  }
+
+  .little-extras-photo {
+    height: 100%;
+  }
+
+  .little-extras-photo img {
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 .gallery-section {
