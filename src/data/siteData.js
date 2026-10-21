@@ -9,9 +9,9 @@ export const siteImages = {
   },
 
   amenities: {
-    bathroomMain: '/images/gallery-1.svg',
-    bathroomDetailOne: '/images/gallery-2.svg',
-    bathroomDetailTwo: '/images/gallery-3.svg',
+    bathroomMain: '/images/gallery-1.jpg',
+    bathroomDetailOne: '/images/gallery-2.jpg',
+    bathroomDetailTwo: '/images/gallery-3.jpg',
     kitchenDetailOne: '/images/gallery-4.svg',
     kitchenDetailTwo: '/images/gallery-5.svg',
     kitchenDetailThree: '/images/gallery-6.svg',
