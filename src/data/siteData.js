@@ -69,6 +69,26 @@ export const siteImages = {
   },
 };
 
+
+
+export const availabilityCalendars = [
+  {
+    id: 'upper-unit',
+    title: 'UPPER UNIT',
+    url: 'https://calendar.google.com/calendar/embed?src=0ailcm5vdmgvmfugt7hfamlp66t6a60j%40import.calendar.google.com&ctz=America%2FToronto',
+  },
+  {
+    id: 'lower-unit',
+    title: 'LOWER UNIT',
+    url: 'https://calendar.google.com/calendar/embed?src=2k5bp9li74njnr6npdscobg53umelrqf%40import.calendar.google.com&ctz=America%2FToronto',
+  },
+  {
+    id: 'entire-duplex',
+    title: 'ENTIRE DUPLEX',
+    url: 'https://calendar.google.com/calendar/embed?src=vvlp7did8u8cjnetsn2ag8ddef8c131h%40import.calendar.google.com&ctz=America%2FToronto',
+  },
+];
+
 export const navItems = [
   { label: 'Home', href: '#home' },
   { label: 'About Me', href: '#about' },
