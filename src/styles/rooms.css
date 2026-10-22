@@ -102,13 +102,6 @@
 }
 
 @media (min-width: 901px) {
-  .rooms-section .rooms-panel {
-    width: min(calc(100% - 40px), 1040px);
-    max-width: 1040px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .rooms-title {
     font-size: 5.35rem;
   }
