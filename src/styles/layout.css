@@ -8,64 +8,26 @@
     padding-right: 0;
   }
 
+  /* Keep every main section on the same content rail as About Your Host. */
   .intro-grid,
   .about-host-container,
   .rooms-panel,
-  .amenities-container,
   .availability-heading,
   .availability-calendar-panel,
+  .amenities-container,
   .little-extras-layout,
   .unit-gallery-block,
-  .unit-gallery-upper-lower-living-spaces,
   .pricing-container,
   .rules-safety-container,
+  .reviews-container,
   main > section:not(.hero) > .container {
-    width: min(calc(100% - 40px), max(990px, 72vw), 1400px);
+    width: min(calc(100% - 80px), 92vw, 1400px);
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .amenities-container {
-    width: min(calc(100% - 40px), max(1100px, 88vw), 1350px);
-    max-width: 1350px;
-  }
-
-  .availability-calendar-panel {
-    width: min(calc(100% - 40px), 940px);
-    max-width: 940px;
-  }
-
-  .about-host-container {
-    width: min(calc(100% - 80px), 92vw, 1400px);
-    max-width: 1400px;
-  }
-
-  .little-extras-layout {
-    width: min(calc(100% - 40px), 1175px);
-    max-width: 1175px;
-  }
-
-  .pricing-container {
-    width: min(calc(100% - 8px), 1400px);
-    max-width: 1400px;
-  }
-
-  .unit-gallery-block.unit-gallery-upper-kitchen,
-  .unit-gallery-block.unit-gallery-upper-bathroom,
-  .unit-gallery-block.unit-gallery-upper-bedrooms,
-  .unit-gallery-block.unit-gallery-lower-kitchen,
-  .unit-gallery-block.unit-gallery-lower-bathroom,
-  .unit-gallery-block.unit-gallery-lower-bedrooms,
-  .unit-gallery-block.unit-gallery-upper-lower-living-spaces {
-    width: min(calc(100% - 40px), 1180px);
-    max-width: 1180px;
-  }
-
-  .intro-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
+  /* Let the content inside each rail use the full available width. */
   .intro-content,
   .intro-copy,
   .amenities-top,
@@ -79,5 +41,9 @@
   .reviews-grid {
     width: 100%;
     max-width: 100%;
+  }
+
+  .intro-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
