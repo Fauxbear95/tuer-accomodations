@@ -206,7 +206,8 @@
 
   .rules-handbook-row {
     position: absolute;
-    right: 16px;
+    left: 20px;
+    right: auto;
     bottom: 14px;
     margin: 0;
   }
