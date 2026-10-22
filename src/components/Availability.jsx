@@ -1,5 +1,6 @@
 import {
   availabilityCalendars,
+  contactEmail,
   siteImages,
 } from '../data/siteData.js';
 
@@ -17,7 +18,7 @@ export default function Availability() {
 
         <a
           className="availability-request-button"
-          href="#contact"
+          href={`mailto:${contactEmail}`}
         >
           REQUEST
         </a>
