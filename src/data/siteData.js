@@ -1,3 +1,5 @@
+export const contactEmail = 'Ti_2020@outlook.com';
+
 export const siteImages = {
   hero: '/images/hero.png',
   intro: '/images/suite-one.jpg',
