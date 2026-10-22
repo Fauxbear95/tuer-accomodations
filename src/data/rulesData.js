@@ -17,10 +17,6 @@ export const rulesColumns = [
       title: 'Quiet hours',
       detail: '10:00 p.m.–7:00 a.m.',
     },
-    {
-      icon: 'no-smoking',
-      title: 'No smoking',
-    },
   ],
 
   [
@@ -41,12 +37,8 @@ export const rulesColumns = [
       title: 'Lock up',
     },
     {
-      icon: 'smoke-alarm',
-      title: 'Smoke alarm installed',
-    },
-    {
-      icon: 'co-alarm',
-      title: 'Carbon monoxide alarm installed',
+      icon: 'no-smoking',
+      title: 'No smoking',
     },
   ],
 
@@ -61,12 +53,12 @@ export const rulesColumns = [
       title: 'No commercial photography',
     },
     {
-      icon: 'no-smoking',
-      title: 'No smoking',
+      icon: 'smoke-alarm',
+      title: 'Smoke alarm installed',
     },
     {
-      icon: 'camera-off',
-      title: 'No commercial photography',
+      icon: 'co-alarm',
+      title: 'Carbon monoxide alarm installed',
     },
     {
       icon: 'security-camera',
