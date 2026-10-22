@@ -32,8 +32,8 @@
   }
 
   .availability-calendar-panel {
-    width: 100%;
-    max-width: none;
+    width: min(calc(100% - 40px), 940px);
+    max-width: 940px;
   }
 
   .about-host-container {
