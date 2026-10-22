@@ -1,4 +1,4 @@
-import { siteImages } from '../data/siteData.js';
+import { contactEmail, siteImages } from '../data/siteData.js';
 
 export default function Hero() {
   return (
@@ -19,7 +19,7 @@ export default function Hero() {
 
         <a
           className="button hero-request-button"
-          href="#availability"
+          href={`mailto:${contactEmail}`}
         >
           REQUEST
         </a>
