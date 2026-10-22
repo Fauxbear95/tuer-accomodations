@@ -1,5 +1,5 @@
 import { MapPin } from 'lucide-react';
-import { siteImages } from '../data/siteData.js';
+import { contactEmail, siteImages } from '../data/siteData.js';
 
 function InstagramIcon({ className }) {
   return (
@@ -86,7 +86,7 @@ export default function Footer() {
         <div className="footer-center">
           <a
             className="footer-request-button"
-            href="#availability"
+            href={`mailto:${contactEmail}`}
           >
             REQUEST
           </a>
